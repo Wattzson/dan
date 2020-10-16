@@ -395,7 +395,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 50px;
@@ -459,7 +459,7 @@ section {
 
 .resume .resume-item h5 {
   font-size: 16px;
-  background: #e4edf9;
+  background: #ffeaea;
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
@@ -757,7 +757,7 @@ section {
   float: left;
   width: 44px;
   height: 44px;
-  background: #dff3fc;
+  background: #facece;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -899,6 +899,10 @@ section {
 
 .contact .php-email-form button[type="submit"]:hover {
   background: #ed3737;
+}
+
+.form-control:focus {
+  border-color: #ed3737
 }
 
 @-webkit-keyframes animate-loading {
